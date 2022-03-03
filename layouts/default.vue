@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <Navbar />
+  <div id="default-template">
+    <Header />
     <slot />
     <Footer />
   </div>
