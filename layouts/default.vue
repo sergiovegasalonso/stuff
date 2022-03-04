@@ -3,5 +3,6 @@
     <Header />
     <slot />
     <Footer />
+    <ThemeSwitcher />
   </div>
 </template>

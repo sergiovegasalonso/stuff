@@ -7,7 +7,7 @@
 </template>
 
 <style>
-:root.light {
+:root {
   --theme-primary-lighter: #ff8b6d;
   --theme-primary-light: #ed6440;
   --theme-primary: #da3e15;
@@ -22,12 +22,30 @@
 }
 
 :root.dark {
-  --theme-primary: #f34c84;
-  --theme-secondary: #c297dc;
-  --theme-surface: #2f2b2b;
-  --theme-background: #1b1919;
-  --theme-on-primary: #443e42;
-  --theme-on-secondary: #000;
-  --theme-on-surface: #f5f1f1;
+  --theme-primary-lighter: #ff8b6d;
+  --theme-primary-light: #ed6440;
+  --theme-primary: #da3e15;
+  --theme-primary-dark: #af2a07;
+  --theme-primary-darker: #871c00;
+  --theme-secondary: #9b4dca;
+  --theme-surface: #fff;
+  --theme-background: #333333;
+  --theme-on-primary: #fff;
+  --theme-on-secondary: #fff;
+  --theme-on-surface: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+#app {
+  background-color: var(--theme-background);
+  min-height: 100vh;
 }
 </style>
